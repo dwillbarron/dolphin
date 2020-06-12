@@ -25,6 +25,7 @@ static const u16 button_bitmasks[] = {
     PAD_BUTTON_X,
     PAD_BUTTON_Y,
     PAD_TRIGGER_Z,
+    PAD_TRIGGER_HOMEBREW_ZL,
     PAD_BUTTON_START,
     0  // MIC HAX
 };
@@ -37,7 +38,7 @@ static const u16 trigger_bitmasks[] = {
 static const u16 dpad_bitmasks[] = {PAD_BUTTON_UP, PAD_BUTTON_DOWN, PAD_BUTTON_LEFT,
                                     PAD_BUTTON_RIGHT};
 
-static const char* const named_buttons[] = {"A", "B", "X", "Y", "Z", "Start"};
+static const char* const named_buttons[] = {"A", "B", "X", "Y", "Z", "ZL", "Start"};
 
 static const char* const named_triggers[] = {
     // i18n: The left trigger button (labeled L on real controllers)

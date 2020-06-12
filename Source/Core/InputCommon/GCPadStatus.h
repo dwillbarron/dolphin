@@ -27,6 +27,7 @@ enum PadButton
   PAD_BUTTON_X = 0x0400,
   PAD_BUTTON_Y = 0x0800,
   PAD_BUTTON_START = 0x1000,
+  PAD_TRIGGER_HOMEBREW_ZL = 0x4000,
 };
 
 struct GCPadStatus
